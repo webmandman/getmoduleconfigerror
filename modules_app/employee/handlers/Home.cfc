@@ -8,7 +8,7 @@ component extends="coldbox.system.RestHandler" {
 	 */
 	function index( event, rc, prc ){
 		rc.append({cb_fname:"Daniel",cb_lname:"Mejia"});
-		var Employee = populateModel( "Employee" );
+		var Employee = populateModel( "Employee@employee" );
 		var validation = validate( Employee );
 		return validation;
 	}

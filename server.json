@@ -2,6 +2,9 @@
     "app":{
         "cfengine":"adobe@2018"
     },
+    "JVM":{
+        "heapSize":"2048"
+    },
     "web":{
         "rewrites":{
             "enable":true

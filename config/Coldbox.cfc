@@ -42,7 +42,7 @@
 			invalidHTTPMethodHandler : "",
 			exceptionHandler         : "Echo.onError",
 			invalidEventHandler      : "",
-			customErrorTemplate      : "",
+			customErrorTemplate      : "/coldbox/system/exceptions/Whoops.cfm",
 			// Application Aspects
 			handlerCaching           : false,
 			eventCaching             : false,
